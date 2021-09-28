@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(221, 197, 243);
+}
+section{
+    margin: 0 auto;
+    background: #9683ec  ;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #0B0B0C ;
+    font-size: 20px;
+}
+.cajas{
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+h1{
+    text-align: center;
+    color:black
+    
+    ;
+}
+body{
+background-image: url(../img/color1.jpg);
+}

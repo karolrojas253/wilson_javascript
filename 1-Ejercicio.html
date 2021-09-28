@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HORAS TRABAJADAS </title>
+
+    <link rel="stylesheet" href="css/1_ejercicio.css">
+</head>
+
+<body>
+    <h1>HORAS TRABAJADAS</h1>
+    <section>
+        <form action="#" method="POST">
+            <input type="number" id="horas" placeholder="digite la horas trabajadas" required class="cajas"> <br>
+            <button type="button" onclick="calcular();">calcular</button><br>
+            <button type="button" onclick=li><a href="index_soluicion.html"> Volver</a></li>
+        </form><br>
+        <div id="resultado"></div>
+
+        <div id="total"></div>
+    </section>
+
+</body>
+
+</html>
+<script>
+    function calcular() {
+        var horas = document.getElementById('horas').value;
+
+        if (horas <= 40) {
+            var resultado = parseInt(horas) * 10000;
+            document.getElementById('resultado').innerHTML = "<h1>su pago es de = " + resultado + "</h1>";
+        }
+        if (horas > 40) {
+            var resul = 40 * 10000;
+            var extras = parseInt(horas) - 40;
+            var valor_total = extras * 15000;
+            var total = resul + valor_total
+
+            document.getElementById('total').innerHTML = total;
+        }
+    }
+</script>
+<p><h1> Crear un aplicativo web que le permita a un trabajador calcular cuál será su sueldo semanal, se sabe que, si
+    trabaja 40 horas o menos, se le pagará $10000 por hora, pero si trabaja más de 40 horas entonces las horas extras se
+    le pagarán a $15000 por hora.
+
+</p></h1>

@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(164, 189, 243);
+}
+section{
+    margin: 0 auto;
+    background: #857da7  ;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    color: #0B0B0C ;
+    font-size: 30px;
+}
+.cajas{
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    
+}
+
+h1{
+    text-align: center;
+    color:black
+    ;
+}
+ 
