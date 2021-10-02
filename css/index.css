@@ -1,11 +1,9 @@
-
-
- *{
+*{
     margin: 0;
     padding: 0;
 }
 body{
-    background: #d8d7f5;
+    background: #f9defd;
 }
 h1{
     color: black;
@@ -23,7 +21,7 @@ p{
 
 }
 nav{
-    background:  #b7bceb;
+    background:  #f7d0d6;
     position: fixed;
     height: 100%;
     top: 0;
@@ -39,6 +37,7 @@ nav{
     margin: 7em auto 0 auto;
     width: 16em;
     padding-left: .1em;
+    position: relative;
     
 }
 .menu a{
@@ -137,4 +136,33 @@ p.centrado{
     margin: 0 auto 0 auto;   
     align-content: center;
 }
- 
+
+p.fuente-enlace{
+    text-align: center;
+    font-size: 45px;
+}
+p.fuente-Give You Glory{
+    font-family: 'Give You Glory' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+p.fuente-Italianno{
+    font-family: 'Italianno', Arial, Helvetica, sans-serif ;
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+nav ul li .children{
+    display: none;
+    position: absolute;
+    background:  #9cbcee;
+    text-align: left;
+}
+nav ul li:hover .children{
+    display: block;
+    text-align: left;
+    width: 120%;
+}
+body{
+    background-image: url(../img/color.jpg);
+    }
+

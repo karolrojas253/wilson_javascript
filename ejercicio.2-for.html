@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TABLA MULTIPLICAR</title>
+    <link rel="stylesheet" href="css/ejercicio2.css">
+</head>
+
+<body>
+   
+    </script>
+    <h1> TABLA DE MULTIPLICAR </h1>
+    <select class="cajas" id="numero" onchange="saludar()">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+    <div id="resultado"></div>
+
+</body>
+
+</html>
+
+<script>
+
+    function saludar() {
+
+        var numero = parseInt(document.getElementById("numero").value);
+        var multiplicacion = "";
+        var i = 1;
+
+        while (i <= 10) {
+            multiplicacion += "<h1>" + i + " * " + numero + "=" + numero * i + "</h1>";
+            i++;
+        }
+        document.getElementById("resultado").innerHTML = multiplicacion;
+
+    }
+</script>
+ 
